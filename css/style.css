@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffedef;
+  font-family: arial, helvetica, sans-serif;
+
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+header {
+  padding: 0 40px 0 40px;
+
+}
+
+/********Header***********/
+
+
+.titel1 {
+  color: purple;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.titel2 {
+  color: #46af6e;
+  font-size: 60px;
+
+}
+
+
+a {
+  color: tomato;
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 5px;
+}
+
+nav {
+  margin-top: 30px;
+  border-left: 9px solid tomato;
+}
+
+.home {
+  color: black;
+  font-weight: bold
+}
+
+#par {
+  font-size: 21px;
+}
+
+.floatRigth {
+  float: right;
+}
+
+/****Main******/
+
+main {
+  margin-top: 100px;
+  padding: 0 40px 0 40px;
+
+}
+
+.floatLeft {
+  float: left;
+  margin-right: 30px;
+}
+
+/*----Content Personal Touch------*/
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: purple;
+  border-left: 20px solid tomato;
+  padding-left: 6px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 30px;
+  color: mediumseagreen;
+}
+
+/*************Personal Touch Boxes*************************/
+
+.personalTouch {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+#personal {
+  margin-top: 140px;
+}
+
+.box1 {
+  background-color: tomato;
+  height: 400px;
+  width: 800px;
+}
+
+.box2 {
+  background-color: #656DA3;
+  height: 400px;
+  width: 800px;
+}
+
+.box3 {
+  color: tomato;
+  background-color: #1C262F;
+  height: 400px;
+  width: 800px;
+}
+
+.PersText {
+  font-size: 45px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*********Dividing Time boxes**************/
+
+.wrap1,
+.wrap2 {
+  display: flex;
+}
+
+.wrap2 {
+  margin-bottom: 60px;
+}
+
+.dividing1 h2,
+.dividing2 h2,
+.dividing3 h2,
+.dividing4 h2 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.dividing1 p,
+.dividing2 p,
+.dividing3 p,
+.dividing4 p {
+  font-size: 18px;
+  text-align: center
+}
+
+.dividing1 {
+  background-color: #656DA3;
+  width: 450px;
+  height: 200px;
+}
+
+.dividing2 {
+  background-color: #F230A2;
+  width: 450px;
+  height: 200px;
+}
+
+.dividing3 {
+  background-color: mediumseagreen;
+  width: 450px;
+  height: 200px;
+
+}
+
+.dividing4 {
+  background-color: gold;
+  width: 450px;
+  height: 200px;
+
+}
+
+/**********Footer***************/
+
+footer {
+  margin-top: 100px;
+  background-color: mediumseagreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img {
+  margin: 5px;
+}
+
+footer p {
+  font-size: 18px;
+}
